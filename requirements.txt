@@ -4,11 +4,13 @@ requests==2.18.3
 dataset==0.8.0
 
 # Scikit
-scipy==0.19.1
-numpy==1.13.1
-scikit-learn==0.18.2
+scipy==1.10.0rc1
+numpy==1.22.2
+scikit-learn==1.5.0
 nltk==3.2.4
 
 # Plotting libs
 matplotlib==2.0.2
 seaborn==0.8
+certifi>=2024.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
+mako>=1.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
